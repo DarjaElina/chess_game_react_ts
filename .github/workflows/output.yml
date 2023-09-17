@@ -4,7 +4,7 @@ jobs:
   info:
     runs-on: ubuntu-20.04
     env:
-      working-directory: ./react
+      working-directory: ./my-app
     steps:
       - name: Output Github context
         run: echo "${{toJson(github)}}"
